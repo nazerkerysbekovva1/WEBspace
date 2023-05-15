@@ -1,0 +1,59 @@
+.home{
+    width: auto;
+    padding: 12px 151px; 
+    background: linear-gradient(rgb(7 7 7 / 60%), rgb(0 0 0 / 60%)), url("../../images/promotion-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+.home-inner{
+    align-items: center;
+    padding: 150px 0;
+}
+.home-inner h3{
+    color: #eee;
+    font-size: 34px;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+.home-inner h1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+}
+.home-inner p{
+    color: #eee;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    word-spacing: 2px;
+}
+.home-inner a{
+    background: #a0898a;
+    border: 2px solid #a0898a;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    overflow: hidden;
+    padding: 14px 40px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.home-inner a:hover{
+    background: #eaddcd;
+    border: 2px solid #eaddcd;
+    color: #4a2632;
+    transition: .4s;
+}
+@media(max-width:780px){
+    .home{
+        padding: 12px 20px;
+    }
+}

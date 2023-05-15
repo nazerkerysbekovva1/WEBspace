@@ -1,0 +1,29 @@
+.register{
+    background-color: #f1f1f1;
+    padding: 65px 151px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    background-color: #fff;
+    border-radius: 32px;
+    width: 400px;
+}
+.register-content h1{
+    margin-bottom:  16px;
+    font-size: 32px;
+    letter-spacing: -1px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #222;
+}
+@media(max-width:880px){
+    .register{
+        padding: 60px 30px;
+    }
+}

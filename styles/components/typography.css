@@ -1,0 +1,15 @@
+.input {
+    display: flex;
+    align-items: center;
+}
+.code-textarea{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    resize: none;
+    height: 200px;
+    padding: 20px;
+	font-family: 'Chewy', cursive;
+}
+.text-danger{
+    color: red;
+}

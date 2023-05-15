@@ -1,0 +1,125 @@
+.utility{
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+}
+.utility h3{
+    color: #4a2632;
+    font-size: 34px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    margin: 10px 0 30px;
+}
+.utility p{
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #666;
+}
+.utility i{
+    font-size: 16px;
+    color: #4a2632;
+}
+.use-inner{
+    width: 90%;
+    display: flex;
+    gap: 24px;
+    /* height: 480px; */
+    margin: 0 auto;
+    position: relative;
+}
+.use-item{
+    margin-top: 24px;
+    width: 33%;
+    box-shadow: 0 1px 6px rgb(0 0 0 / 10%);
+    background-color: #fbf8f8;
+    margin: 0 auto;
+    padding: 30px 0 60px;
+}
+.u-img{
+    margin: -30px 0 -15px;
+    /* width: 100%; */
+    object-position: 50%;
+    position: relative;
+}
+.u-img img{
+    width: 100%;  
+    box-sizing: border-box;
+    margin-bottom: -2px;
+    position: relative;
+    z-index: 2;
+} 
+.use-item h2{
+    font-size: 19px;
+    font-weight: 600;
+    margin: 40px 0 20px;
+    color: #282828;
+    padding: 0 30px;
+}
+@media(max-width:990px){ 
+    .use-inner{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .use-item{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+}
+.prog-language{
+    background: linear-gradient(rgb(7 7 7 / 60%), rgb(0 0 0 / 60%)), url("../../images/counter-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 40px 0;
+    position: relative;
+}
+.prog-inner{
+    margin: 0 91.2px;
+    padding: 10px 12px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    height: auto;
+}
+.prog-inner div{
+    padding: 10px 20px;
+    width: 98%;
+    height: 100%;
+}
+.prog-inner div i{
+    font-size: 48px;
+}
+.prog-inner div i:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+.prog-inner i:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+.zoom{
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0 , 0 , 0 , 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.u-img:hover .zoom{
+    z-index: 4;
+    transition: 0.3s;
+}

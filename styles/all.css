@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+
+@import url(vendor/reset.css);
+@import url(vendor/same.css);
+@import url(components/header.css);
+@import url(components/end.css);
+@import url(components/home.css);
+@import url(pages/main.css);
+@import url(components/blog.css);
+@import url(components/menu.css);
+@import url(pages/about.css);
+@import url(components/modal.css);
+@import url(components/register.css);
+@import url(pages/profile.css);
+@import url(components/edit.css);
+@import url(components/dropdown.css);
+@import url(components/typography.css);
+@import url(pages/blog-details.css);
+@import url(components/input.css);
+@import url(components/pagination.css);
